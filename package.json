@@ -4,10 +4,9 @@
   "description": "This is an experimental full stack project",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-	"start": "nodemon --exec babel-node server.js --ignore public/",
-	"dev": "webpack -wd"
-
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/tchuang928/fullstack-js#readme",
   "dependencies": {
+    "ejs": "^2.5.6",
     "express": "^4.15.2",
     "mongodb": "^2.2.26",
     "react": "^15.5.4",
